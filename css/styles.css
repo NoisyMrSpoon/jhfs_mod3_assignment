@@ -53,11 +53,14 @@ button.navbar-toggle {
   color: #3a7;
 }
 /* End Header Styles */
-#maintext {
+.maintext {
   background-color: #cec;
   padding: 15px;
 }
 #maincontent {
   width: 90%;
   margin: 5px auto 15px;
+}
+h2 {
+  margin-top: 0px;
 }
