@@ -1,0 +1,63 @@
+/*
+Styles for HTML, CSS, Javascript Course Module 3 Assignment
+Dave S
+*/
+
+/*
+COLOUR PALETTE
+#aaa Pale Grey background
+#696969 Darker Grey Colour
+#b22 Redish
+#f33 Bright Red
+#3a7 Greenish
+
+*/
+
+body {
+  background-color: #aaa;
+  font-family: 'Gill Sans', sans-serif;
+  margin: 0;
+}
+a:link, a:active, a:visited, a:hover {
+  text-decoration: none;
+}
+/* Start Header Styles */
+nav#header-nav {
+  margin: 0;
+  background-color: #b22;
+  min-height: 90px;
+}
+nav#header-nav span {
+  color: 3a7;
+}
+a.navbar-brand {
+  font-size: 3em;
+  margin: 20px 15px 20px;
+}
+a.navbar-brand {
+  color: #3a7;
+}
+button.navbar-toggle {
+  float: right;
+  background-color: #3a7;
+}
+#nav-list li {
+  width: 100%;
+  text-align: center;
+  border: 1px solid #696969;
+  background-color: #3a7;
+  font-size: 2em;
+}
+#nav-list li:hover {
+  background-color: #f33;
+  color: #3a7;
+}
+/* End Header Styles */
+#maintext {
+  background-color: #cec;
+  padding: 15px;
+}
+#maincontent {
+  width: 90%;
+  margin: 5px auto 15px;
+}
